@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="custom_black">#02070A</color>
+    <color name="navy_blue">#003049</color>
+    <color name="navy_soft_blue">#164361</color>
+    <color name="blue">#03568A</color>
+    <color name="sky_blue">#1186CF</color>
+    <color name="soft_blue">#98C6E3</color>
+    <color name="custom_red">#D62828</color>
+    <color name="custom_pink">#EB9999</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
