@@ -7,6 +7,7 @@
     <color name="sky_blue">#1186CF</color>
     <color name="soft_blue">#98C6E3</color>
     <color name="custom_red">#D62828</color>
+    <color name="google_plus">#D64E42</color>
     <color name="custom_pink">#EB9999</color>
     <color name="white">#FFFFFFFF</color>
 </resources>
