@@ -1,9 +1,17 @@
 <resources>
     <string name="app_name">KotlinFirebaseApp</string>
+
+    <!--Strings-->
     <string name="login_email">Email</string>
     <string name="login_password">Password</string>
-    <string name="login_sign_in_button">Sign in</string>
-    <string name="login_sign_up_button">Create a new account</string>
-    <string name="login_with_google_button">Sign in with Google+</string>
+    <string name="login_confirm_password">Confirm password</string>
     <string name="login_forgot_password">I have forgotten my password</string>
+    <string name="login_sign_up">Sign up</string>
+
+    <!--Buttons-->
+    <string name="login_sign_in_button">Sign in</string>
+    <string name="login_create_account_button">Create a new account</string>
+    <string name="login_with_google_button">Sign in with Google+</string>
+    <string name="login_go_login_button">Go back to login</string>
+    <string name="login_reset_password_button">Reset my password</string>
 </resources>
