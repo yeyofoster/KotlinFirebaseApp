@@ -7,13 +7,13 @@
     android:layout_height="match_parent"
     android:background="@color/navy_blue"
     android:fillViewport="true"
-    tools:context=".LoginActivity"
+    tools:context=".activities.LoginActivity"
     tools:ignore="SpeakableTextPresentCheck">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:context=".LoginActivity">
+        tools:context=".activities.LoginActivity">
 
         <EditText
             android:id="@+id/editTextEmail"
