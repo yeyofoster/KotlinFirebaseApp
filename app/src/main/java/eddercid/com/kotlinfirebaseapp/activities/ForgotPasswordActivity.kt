@@ -24,7 +24,7 @@ class ForgotPasswordActivity : AppCompatActivity() {
             val email = binding.editTextEmail.text.toString()
             hideKeyboard()
 
-            if (isEmailValid(email)) {
+            if (Validator.isValidEmail(email)) {
                 resetPasswordWithEmail(email)
             } else {
                 showToast("Invalid email")
@@ -38,10 +38,6 @@ class ForgotPasswordActivity : AppCompatActivity() {
         }
 
         setContentView(binding.root)
-    }
-
-    private fun isEmailValid(email: String): Boolean {
-        return email.isNotEmpty() && Validator.isValidEmail(email)
     }
 
     private fun resetPasswordWithEmail(email: String) {
